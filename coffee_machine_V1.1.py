@@ -33,6 +33,7 @@ def resources_check(MENU, order, resources):
     for i in resources:
         if i in MENU[order]["ingredients"]:
             if resources[i] < MENU[order]["ingredients"][i]:
+                
                 print(f"Sorry there is not enough {i}")
                 check = False
                 return check
