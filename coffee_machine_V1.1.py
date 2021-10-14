@@ -1,4 +1,4 @@
-from Database import MENU, coins, resources
+from database import MENU, coins, resources
 
 
 # TODO.3 Improve function payment using a dictionary for the coin
